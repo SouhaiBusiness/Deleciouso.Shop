@@ -147,12 +147,12 @@
     <div class="container  ">
 
       <div class="row">
-        <div class="col-md-6 ">
+        <div class="col-md-6 col-md-6-left">
           <div class="img-box">
             <img src="images/multicolorglass.png" alt="">
           </div>
         </div>
-        <div class="col-md-6">
+        <div class="col-md-6 col-md-6-right">
           <div class="detail-box">
             <div class="heading_container">
               <h2>
@@ -274,6 +274,25 @@
   </script>
   <!-- End Google Map -->
 
+    <!-- Scroll Reveal -->
+
+<script src="https://unpkg.com/scrollreveal"></script>
+
+  <script type="text/javascript">
+    /* Scroll Reveal */
+  
+   ScrollReveal({ 
+     reset: true,
+     distance: '100px',
+     duration: 2000,
+     deplay: 200 
+   });
+     
+  ScrollReveal().reveal('.', { origin: 'top' });
+  ScrollReveal().reveal('.col-lg-4 ', { origin: 'bottom' });
+  ScrollReveal().reveal('.col-md-6-left', { origin: 'left' });
+  ScrollReveal().reveal('.col-md-6-right', { origin: 'right' });
+  </script>
 </body>
 
 </html>
