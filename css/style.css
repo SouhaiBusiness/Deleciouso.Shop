@@ -47,7 +47,7 @@ h2 {
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
-  background-color: black;
+
 }
 
 .heading_container h2 {
@@ -148,7 +148,9 @@ a:focus {
   padding-right: 25px;
   padding-left: 25px;
 }
-
+.navbar{
+ background: #333;
+}
 .navbar-brand {
   font-family: 'Dancing Script', cursive;
 }
