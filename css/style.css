@@ -47,7 +47,7 @@ h2 {
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
-  background-color: var(--darken);
+  background-color: black;
 }
 
 .heading_container h2 {
